@@ -1,0 +1,78 @@
+.clearfix::after {
+    content: “”;
+    display: block;
+    clear: both;
+    }
+
+
+.header{
+    width: 400px;
+    height: 100px;
+    background-color: #141f40;
+}
+
+.main{
+    width: 400px;
+    height: 250px;
+} 
+
+.left{
+    width: 150px;
+    height: 250px;
+    background-color: #80bfa8;
+    float: left;
+}
+
+:right{
+    width: 250px;
+    height: 250px;
+    float: right;
+}
+
+.left2{
+    width: 150px;
+    height: 150px;
+    background-color: #80bfa8;
+    float: left;
+}
+
+.box1{
+    width: 150px;
+    height: 50px;
+    background-color: #dbd400;
+    float: left;
+}
+
+.box2{
+    width: 150px;
+    height: 100px;
+    background-color: #0093b7;
+    float: left;
+}
+
+:right{
+    width: 100px;
+    height: 150px;
+    float: right;
+}
+
+.box3{
+    width: 100px;
+    height: 150px;
+    background-color: #ff9e6b;
+    float: right;
+}
+
+ .box4{ 
+    width: 250px;
+    height: 100px;
+    background-color: #8c2727;
+    float: right;
+} 
+
+.footer{
+    width: 400px;
+    height: 100px;
+    background-color: #d98d30;
+}
+
