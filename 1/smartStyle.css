@@ -1,0 +1,55 @@
+@media screen and (min-width: 767px) {
+}
+
+@media screen and (max-width: 767px) {
+}
+
+@media screen and (max-width: 479px) {
+    .contents {
+        float: none; 
+        position: none;
+    }
+            
+        .header{
+          width: 200px;
+          height: 200px;
+        }
+    
+        .frame1{
+          width: 60px;
+          height: 160px;
+          display: block;
+          right: 70px;
+        }
+
+        .item1{
+            margin: 15%;
+        }
+    
+        .main{
+            width: 200px;
+            height: 350px;
+        }
+    
+        .left{
+          width: 200px;
+          height: 100px;
+        }
+    
+        .right{
+          width:200px;
+          height: 250px;
+        }
+    
+        .container{
+          width: 150px;
+          height: 170px;
+          left: 30px; top: 20px; 
+        }
+      
+        .footer{
+         width: 200px;
+         height: 100px;
+        }
+    
+}

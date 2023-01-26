@@ -1,14 +1,8 @@
-/* .clearfix::after {
-    content: “”;
-    display: block;
-    clear: both;
-    } */
-
 .header{
     width: 400px;
     height: 100px;
     background-color: #141f40;
-    /* margin:0 */
+    position: relative;
 }
 
 .frame1{
@@ -16,7 +10,8 @@
     height: 60px;
     background-color: white;
     display: flex;
-    margin: 20px 20px auto 220px;
+    position: absolute;
+    right: 20px; top:20px;
 }
 
 .item1{
@@ -44,37 +39,45 @@
     height: 250px;
     background-color: #8c2727;
     float: right;
+    position: relative;
 }
 
+.container{
+    width: 150px;
+    height: 170px;
+    float: right;
+    position: absolute;
+    left: 40px; top: 40px; right: 60px; bottom: 40px;
+}
 .frame2{
     width: 150px;
     height: 50px;
     background-color: white;
-    display: flex;
-    margin: 40px 60px 10px 40px;
+    position: relative;
 }
 
 .frame3{
     width: 150px;
     height: 50px;
     background-color: white;
-    display: flex;
-    margin: 10px 60px 10px 40px;
+    margin: 5% 0;
+    position: relative;
 }
 
 .frame4{
     width: 150px;
     height: 50px;
     background-color: white;
-    display: flex;
-    margin: 10px 60px 10px 40px;
+    margin: 5% 0;
+    position: relative;
 }
 
 .item2{
     width: 140px;
     height: 40px;
     background-color: #ff863f;
-    margin: auto 5%;
+    position: absolute;
+    left: 5px; top: 5px;
 }
 
 .footer{
