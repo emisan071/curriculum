@@ -12,13 +12,14 @@
     display: flex;
     position: absolute;
     right: 20px; top:20px;
+    justify-content: space-evenly
 }
 
 .item1{
     width: 40px;
     height: 40px;
     background-color: #a9004b;
-    margin: 5%;
+    margin: 6% 1%;
 }
 
 
